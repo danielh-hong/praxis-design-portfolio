@@ -1172,6 +1172,7 @@ main {
   #PORTFOLIO
 \*-----------------------------------*/
 
+/*
 .fancybox-navigation .fancybox-button {
   width: 60px;
   height: 60px;
@@ -1192,14 +1193,14 @@ main {
 }
 
 
-.fancybox-caption::-webkit-scrollbar { width: 10px; } /* adjust this to make the scrollbar thinner */
+.fancybox-caption::-webkit-scrollbar { width: 10px; } 
 
-.fancybox-caption::-webkit-scrollbar-track { background: transparent; } /* make the scrollbar track transparent */
+.fancybox-caption::-webkit-scrollbar-track { background: transparent; } 
 
 .fancybox-caption::-webkit-scrollbar-thumb {
-  border: 3px solid var(--smoky-black); /* adjust this to make the scrollbar thumb thinner */
+  border: 3px solid var(--smoky-black);
   background: hsla(0, 0%, 100%, 0.1);
-  border-radius: 10px; /* adjust this to match the new scrollbar width */
+  border-radius: 10px; 
   box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
               inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
 }
@@ -1207,6 +1208,10 @@ main {
 .fancybox-caption::-webkit-scrollbar-thumb:hover { background: hsla(0, 0%, 100%, 0.15); }
 
 .fancybox-caption::-webkit-scrollbar-button { height: 60px; }
+*/
+
+
+
 
 
 /* Filter and Select Box */
