@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <meta name="google-site-verification" content="_rvfLox3u56IVhNmt0nQoFSPhEPzNS1CCJCcjyd3TwU" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Daniel's Hong personal page. Personal Portfolio. Resume. University of Toronto Engineering Science. Aspiring Engineer.">
+  <meta name="robots" content="noindex">
+  <title>Daniel Hong</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - css styling link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - fancybox link for Youtube Videos
+  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+
+
+<!--
+  background particles
+-->
+<body>
+  <style>
+    #particles-js {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+  </style>
+
+  <div id="particles-js" style="position:fixed; width:100%; height:100%; z-index:0;"></div>
+
+
+  <!--
+    - #Click Animation
+  -->
+
+  <div id="click-effect-container"></div>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profile_pic.png" alt="Profile Picture" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Daniel Hong">Daniel Hong</h1>
+
+          <p class="title">Engineering Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item"> 
+            <div class="icon-box"> <!-- Icon Clickable -->
+              <div class="icon-box-clickable">
+                <a href="mailto:danielh.uoft@gmail.com">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-info"> <!-- Text clickable -->
+              <div class="contact-info-clickable">
+                <p class="contact-title">Email</p>
+                <a href="mailto:danielh.uoft@gmail.com" class="contact-link">danielh.uoft@gmail.com</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="contact-item"> <!-- Icon Clickable -->
+            <div class="icon-box">
+              <div class="icon-box-clickable">
+                <a href="https://www.linkedin.com/in/danielh-hong" target="_blank">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-info"> <!-- Text Clickable -->
+              <div class="contact-info-clickable">
+                <p class="contact-title">Linkedin</p>
+                <a href="https://www.linkedin.com/in/danielh-hong" class="contact-link" target="_blank">Linkedin</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <div class="icon-box-clickable">
+                <a href="https://www.youtube.com/channel/UCtP3sR2AgyXhzXxyjUaZDQA" target="_blank">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </div>
+            </div>
+          
+            <div class="contact-info">
+              <div class="contact-info-clickable">
+                <p class="contact-title">Youtube</p>
+                <a href="https://www.youtube.com/channel/UCtP3sR2AgyXhzXxyjUaZDQA" class="contact-link" target="_blank">Youtube Channel</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Toronto, Ontraio, Canada</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+    
+
+    <div class="main-content">     
+      <!--
+        - #NEW NAVBAR WITH LINKS
+      -->  
+      
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a class="navbar-link active" href="#home" data-nav-link>Home</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#about" data-nav-link>About</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#resume" data-nav-link>Resume</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#portfolio" data-nav-link>Portfolio</a>
+          </li>
+
+          <!--
+          <li class="navbar-item">
+            <a class="navbar-link" href="#contact" data-nav-link>Contact</a>
+          </li>
+        -->
+        </ul>
+      </nav>
+
+
+      <!--
+        - #HOME
+      -->
+      
+<!-- X O X O X O X O X O X O X O X O X O X X O X O X O X O X O X O X O X O X O X -->
+
+      <article id="home" class="home active" data-page="home">
+
+        <header>
+          <h2 class="h2 article-title">Home</h2>
+        </header>
+
+        <section id="profile">
+          <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="home_title">Daniel Hong</h1>
+            <div class="btn-container">
+
+              <button
+                class="btn btn-color-2"
+                onclick="window.open('./assets/other_files/daniel_hong_resume.pdf')"
+              >
+                <p class="CV_download">Download Resume</p>
+              </button>
+
+              <button 
+                class="btn btn-color-1" 
+                onclick="window.open('https://www.linkedin.com/in/danielh-hong', '_blank')"
+              >
+                <p class="Linkedin">Linkedin</p>
+              </button>
+
+            </div>
+
+
+
+
+          </div>
+        </section>
+      </article>
+      
+<!-- X O X O X O X O X O X O X O X O X O X X O X O X O X O X O X O X O X O X O X -->
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about" id="about" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hey! My name is Daniel and I'm an Engineering Science Student at the University of Toronto.
+            Life to me is all about pushing my limits and becoming a better version of myself. What I love about
+            engineering is learning new concepts and applying what I learn to create real, tangible items.
+
+          </p>
+
+          <br>
+          <hr>
+          <br>
+          <p></p>
+
+          <p>
+            Currently, I have strong interests in aerospace engineering,
+            robotics, machine learning, and software development. I am hoping to specialize 
+            in one of these fields in my third year. 
+          </p>
+
+          <p>
+            As of now, I am an active member 
+            of UofT's Aerospace Design Team (UTAT) and Wind Design Team (UWind) where I am developing my hands-on skills.
+            In UTAT, I am currently working on the design of a quadcopter and have so far designed the stringers and bulkheads of the 
+            fuselage using Solidworks. In UTWind, I have designed the nacelle of the wind turbine, which will
+            house the generator and gearbox.
+          </p>
+          
+          <p>
+            Outside of engineering, I am a musician, athlete, and hobbyiest photographer. I have over 10 
+            years of experience 
+            playing the piano and violin, and was a member of UofT's Varsity Track
+            and Field Team. At my best, I cleared 190 cm in high jump and achieved top 30 national rankings. 
+            Unfortunately, I am currently recovering from a hamstring tear.
+          </p>  
+
+          <p>
+            I truly believe that life is all about creating the best version of myself, and this core
+            extends to all facets of my life. I'm always trying to improve my health, my mind, and my abilities,
+            and will continue to do so for the rest of my life. 
+          </p>
+        </section>
+
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm currently working on</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="build-outline" size="large"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Arduino</h4>
+
+                <p class="service-item-text">
+                  Learning how to use Arduino to create a variety of projects.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="laptop-outline" size="large"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Improving my web developement skills. Learning frameworks like react.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="code-slash-outline" size="large"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">C and C++</h4>
+
+                <p class="service-item-text">
+                  Learning how to use C and C++ to create a variety of projects.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="pulse-outline" size="large"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Circuitry</h4>
+
+                <p class="service-item-text">
+                  Learning how to analyze, manipulate, and create circuits.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        
+        <!--
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+        -->
+      </article>
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" id="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Toronto</h4>
+
+              <span>2023 — Current</span>
+
+              <p class="timeline-text">
+                Pursuing an undergraduate
+                B.A.Sc. in Engineering Science, one of Canada's top engineering programs.
+                Expected to graduate in 2027 + PEY. 
+                <ul style="padding-left: 20px; color: rgb(120, 120, 120)">
+                  <li>- Frank Howard $5,000 Admission Scholarship</li>
+                  <li>- University of Toronto National Book Award</li>
+                  <li>- 4.0 GPA </li>
+                </ul>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bloor Collegiate Institute</h4>
+
+              <span>2019 — 2023</span>            
+
+              <p class="timeline-text">
+                Graduated from the TOPS program at Bloor Collegiate Institute.
+                <ul style="padding-left: 20px; color: rgb(120, 120, 120);">
+                  <li>- Two-year Student Council Member</li>
+                  <li>- Founder of Newspress Club (50+ members) in 2022</li>
+                  <li>- AP Physics B, AP Physics C, Digital Design Subject Awards</li>
+                  <li>- Graduating athlete of the year scholarship</li>
+                  <li>- Track and Field OFSAA Qualifier, Varsity Volleyball MVP, Varsity Ultimate MVP, 2022-2023 D2 Basketball Champion</li>
+                  <li>- 98% average</li>
+                </ul>
+              </p>
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Winona Drive Senior Public School (Middle School)</h4>
+
+              <span>2017 — 2019</span>           
+            </li>
+
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">UTAT Member</h4>
+
+              <span>2023 — Current</span>
+
+              <p class="timeline-text">
+                Designed the bulkheads and stringers for the fuselage of a Quadcopter. 
+                Optimized the design by running stress simulations. 
+                The quadcopter will be competing in the national Unmanned Aerial Systems competition.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">UWind Member</h4>
+
+              <span>2023 — Current</span>
+
+              <p class="timeline-text">
+                Modeled and designed the nacelle of a wind turbine using Solidworks for accessibility and aerodynamics.
+                Ran Ansys and Solidwork simulations for optimization. The wind turbine will be 
+                competing in the 2024 International Small Wind Turbine Contest in Sweden.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Tutor</h4>
+
+              <span>2022 — Current</span>
+
+              <p class="timeline-text">
+                Worked one-on-one with my high school clients to improve their mathematics and physics skills.
+                Subjects include calculus, mechanical physics, and functions.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Spirit of Math Assistant Teacher</h4>
+
+              <span>2022 — 2023</span>
+
+              <p class="timeline-text">
+                Led instructional exercises and worked one-on-one with 6th-grade classes 2hrs/week.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C (programming language)</h5>
+                <data value="55">55%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 55%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML CSS Javascript (Webdev)</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Matlab</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Adobe Suite (Photoshop, Illustratrator, After Effects, Premiere Pro, Indesign)</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Solid Works</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Blender</h5>
+                <data value="40">40%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" id="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <!--
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+            -->
+
+            <!---
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+            -->
+
+            <li class="filter-item">
+              <button data-filter-btn>Engineering</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Videos</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Dev & Design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Papers</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+            
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <!--
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+          
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+              -->
+              <li class="select-item">
+                <button data-select-item>Engineering</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Dev & Design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Videos</button>
+              </li>
+              
+              <li class="select-item">
+                <button data-select-item>Papers</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+
+            <!-- makeuoft2024-->
+            <li class="project-item active" data-filter-item data-category="engineering">
+              <a data-fancybox="gallery-makeuoft" data-caption="
+              EcoSort: SmartWaste Assistant is a small-scale, automatic, voice-controlled waste dispenser made for a hackathon.
+              Upon an infrared sensor detecting motion, a  Python script on a Raspberry Pi prompts the user to identify their
+              item vocally. The rasperry pi takes the input and uses Google Speech's API to convert the audio to text.
+              A self-trained machine learning algorithm, which uses a Naïve Bayes classifier, then takes the text, identifies the item,
+              and categorizes it as garbage, compost, or recycling. Based on the algorithms output, the appropriate 
+              signal is sent to the arduino which activates the correct servo motor to open the correct bin." 
+              href="./assets/images/project_thumbnails/makeuoft2024/makeuoft_3.jpg">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project_thumbnails/makeuoft2024/makeuoft_3.jpg" alt="EcoSort" loading="lazy">
+                </figure>
+                <h3 class="project-title">Automatic Trash Dispenser</h3>
+                <p class="project-category">Engineering</p>
+              </a>
+
+              <a data-fancybox="gallery-makeuoft" data-caption="Hardware components" href="./assets/images/project_thumbnails/makeuoft2024/makeuoft_thumbnail.jpg">
+              </a>
+              <a data-fancybox="gallery-makeuoft" data-caption="Internal components" href="./assets/images/project_thumbnails/makeuoft2024/makeuoft_2.jpg">
+              </a>
+              <a data-fancybox="gallery-makeuoft" data-caption="Project Demo by Shervin (Team Member)" href="https://www.youtube.com/watch?v=YkVNaKjuS3E">
+              </a>
+
+            </li>
+            
+            <!-- Nacelle -->
+            <li class="project-item active" data-filter-item data-category="engineering">
+              <a data-fancybox="gallery-utwind-nacelle" data-caption="
+              As a mechanical member of the University of Toronto Wind Design Team, I helped design the nacelle of the turbine. 
+              The nacelle is the housing of the generator and gearbox." 
+              href="./assets/images/project_thumbnails/utwind_nacelle/nacelle_photo.jpg">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project_thumbnails/utwind_nacelle/nacelle_photo.jpg" alt="nacelle_photo" loading="lazy">
+                </figure>
+                <h3 class="project-title">Wind Turbine Nacelle</h3>
+                <p class="project-category">Engineering</p>
+              </a>
+
+              <a data-fancybox="gallery-utwind-nacelle" data-caption="The nacelle design I drew up with my team of four." href="./assets/images/project_thumbnails/utwind_nacelle/nacelle_drawing.png">
+              </a>
+              <a data-fancybox="gallery-utwind-nacelle" data-caption="Our nacelle design on solidworks." href="./assets/images/project_thumbnails/utwind_nacelle/nacelle_solidworks_1.jpg">
+              </a>
+              <a data-fancybox="gallery-utwind-nacelle" data-caption="One of the earlier stages of the solidworks nacelle design." href="./assets/images/project_thumbnails/utwind_nacelle/me_pointing_nacelle.jpg">
+              </a>
+
+            </li>
+            
+
+            <!-- Fuselage ! ! !-->
+            <li class="project-item active" data-filter-item data-category="engineering">
+              <a data-fancybox="gallery-utat-quadcopter-2024" data-caption="
+              This picture is a solidworks render of the quadcopter fuselage I helped design
+              as a member of the University of Toronto Aerospace Team. I personally helped CAD the outer frame of the fuselage, create laser cuts, mold,
+              and design & assemble the stringers, bulkheads, and flooring. The quadcopter will be used to compete 
+              in the Unmanned Aerial Systems national competition held in Montreal (2024)."
+              href="./assets/images/project_thumbnails/utat_quadcopter/fuselage.jpeg">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project_thumbnails/utat_quadcopter/fuselage.jpeg" alt="fuselage_photo" loading="lazy">
+                </figure>
+                <h3 class="project-title">Quadcopter Fuselage</h3>
+                <p class="project-category">Engineering</p>
+              </a>
+
+              <a data-fancybox="gallery-utat-quadcopter-2024" data-caption="A screenshot of the wireframe view of the quadcopter on solidwroks." href="./assets/images/project_thumbnails/utat_quadcopter/fuselage_wireframe.jpg">
+              </a>
+
+
+            </li>
+
+            <!-- Pendulum Project -->
+            <li class="project-item active" data-filter-item data-category="papers">
+              <a data-fancybox data-type="iframe" data-src="./assets/other_files/pendulum_report.pdf" data-caption="This paper uses original data to analyze the swing of a pendulum." href="javascript:;">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project_thumbnails/pendulum_image.png" alt="pendulum_image" loading="lazy">
+                </figure>
+                <h3 class="project-title">Pendulum Analysis</h3>
+                <p class="project-category">Engineering</p>
+              </a>
+            </li>
+
+            <!-- Model Mania 2019 -->
+            <li class="project-item active" data-filter-item data-category="engineering">
+              <a data-fancybox data-caption="This is my first Solidworks project. It is a model
+              of the 2019 Model Mania design challenge." href="./assets/images/project_thumbnails/model_mania_thumbnail.png">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project_thumbnails/model_mania_thumbnail.png" alt="model mania 2019 CAD screenshot" loading="lazy">
+                </figure>
+                <h3 class="project-title">Model Mania 2019</h3>
+                <p class="project-category">Engineering</p>
+              </a>
+            </li>
+
+
+            <!-- Legend of Pakicetus Video Link-->
+            <li class="project-item active" data-filter-item data-category="videos">
+              <a data-fancybox data-caption="
+              The Legend of Pakicetus is an animated short film that I created in 2023. I made it 
+              using after effects for the animations, illustrator for the graphics, photoshop for the 
+              photo editing, premiere pro for the video editing, and media encoder for the final render.
+              The film is about the first whale on land, the Pakicetus. Note tat the video is for 
+              entertainment purposes only and is NOT Scientifically accurate!
+              " href="https://youtu.be/8I9feeSzREQ">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project_thumbnails/pakicetus_thumbnail.png" alt="video thumbnail" loading="lazy">
+                </figure>
+                <h3 class="project-title">The Legend of Pakicetus (Animated Short)</h3>
+                <p class="project-category">Videos</p>
+              </a>
+            </li>
+
+            <!-- The Perception of Pain-->
+            <li class="project-item active" data-filter-item data-category="videos">
+              <a data-fancybox data-caption="
+              Nociception is a video I made for the Junior Breakthrough Challenge in 2021. It is an
+              mixed-medium, animated video about how pain is perceived by the body. I made it 
+              using illustrator, photoshop, after effects, and premiere pro. The video came
+              top 10% in the competition.
+              " href="https://youtu.be/8I9feeSzREQ">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project_thumbnails/nociception_thumbnail.png" alt="video thumbnail" loading="lazy">
+                </figure>
+                <h3 class="project-title">Nociception - The Perception of Pain</h3>
+                <p class="project-category">Videos</p>
+              </a>
+            </li>
+
+            <!-- Biking-->
+            <li class="project-item active" data-filter-item data-category="videos">
+              <a data-fancybox data-caption="
+              Biking - The Best Form of Transportation is a video I made back in 2022. It is a
+              mixed-medium, animated video that uses recorded footage, animations, and stock footage.
+              I truly believe that biking is the best form of transportation, and try to bike 
+              as much as possible (even in the heart of winter). I used  
+              illustrator, photoshop, after effects, and premiere pro for this piece.
+              " href="https://youtu.be/y_c79vshk14?si=Rt8v7-Tx5k_8oc_u">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project_thumbnails/biking_thumbnail.png" alt="video thumbnail" loading="lazy">
+                </figure>
+                <h3 class="project-title">Biking - The Best Form of City Transportation</h3>
+                <p class="project-category">Videos</p>
+              </a>
+            </li>
+
+            <!-- Peto's Paradox -->
+            <li class="project-item active" data-filter-item data-category="videos">
+              <a data-fancybox data-caption="
+              Peto's Paradox is a video I made in 2020 for the Junior Breakthrough Challenge. 
+              During this time, I was fascinated by biology, and especially curious about
+              the inner workings of cancer. Inspired by Kurzegasgt, I decided
+              to make a video about the topic. This video placed top 5% internationally, and
+              is one of my most memorable projects. 
+
+              " href="https://youtu.be/2Xf_u02zm8k?si=lyKa23qDK47Q-2AO">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project_thumbnails/petos_paradox.png" alt="video thumbnail" loading="lazy">
+                </figure>
+                <h3 class="project-title">Peto's Paradox</h3>
+                <p class="project-category">Videos</p>
+              </a>
+            </li>
+
+            <!-- Excavator Project Link-->
+            <li class="project-item active" data-filter-item data-category="videos">
+              <a data-fancybox data-caption=
+              "This is my first Engineering Project Ever, and holds a very dear spot in my heart.
+              Made in 5th grade, I still remember the joy after seeing my creation work for the first time.
+              Other than the hydraulics, the excavator is completely made of recycled materials,
+              featuring a shampoo lid bucket and a cardboard body. Please go easy on the 5th grade editing!
+                                              " href="https://youtu.be/JOrUQsLdYow?si=JBFLzW-WEgpy9yk1">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project_thumbnails/excavator_thumbnail.png" alt="video thumbnail" loading="lazy">
+                </figure>
+                <h3 class="project-title">Excavator (My First Ever Project)</h3>
+                <p class="project-category">Videos</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web dev & design">
+              <a data-fancybox data-caption="
+              You are currently on my personal website! The website is made with HTML, CSS, and Javascript.
+              I used the particles.js library for the interactive background,
+              FancyBox library for the video display popups, and simple javascript code for the mouse and click
+              animations. The website is based on codewithsadee's github template! (MIT Licensed).
+              You can see my source code on github." href="./assets/images/project_thumbnails/personal_website_thumbnail.png">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project_thumbnails/personal_website_thumbnail.png" alt="fundo" loading="lazy">
+                </figure>
+                <h3 class="project-title">Personal Website</h3>
+                <p class="project-category">Web Dev & Design</p>
+              </a>
+            </li>
+
+            <!--
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+          -->
+
+          <!--
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+            -->
+
+            <!--
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+            -->
+
+
+            <!--
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+          -->
+
+            <!--
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+          -->
+
+            <!--
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+            -->
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #CONTACT -- ARCHIVED for Praxis
+      -->
+
+      <!--
+      <article class="contact" id="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184551.9097720768!2d-79.54286797110714!3d43.718370958257054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1707596948325!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formspree.io/f/xqkrprok" method="POST" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+      -->
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <div id="particle-container"></div>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Add jQuery and fancyBox JS for Youtube Link Thing-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="./assets/js/particles-config.js"></script>
+
+  <script src="./assets/js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+
+</body>
+
+</html>
