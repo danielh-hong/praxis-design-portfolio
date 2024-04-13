@@ -1,0 +1,43 @@
+.fancybox-slide--image {
+  display: flex !important;
+}
+
+
+/* Position the image and caption side by side */
+
+.fancybox-image-wrap,
+.fancybox-caption {
+  flex: 1;
+  max-width: 50%;
+}
+
+
+/* Position the caption to the right of the image */
+
+
+.fancybox-caption {
+  order: 2;
+}
+
+
+
+
+
+.fancybox-caption {
+  overflow-y: auto !important;
+  max-height: 100vh;
+  width: 16%;
+  left: 40px !important;
+  bottom: 25px !important;
+  background: linear-gradient(rgba(37, 37, 37, 0.9), rgba(26, 26, 26, 0.9)) !important; /* Onyx black gradient with 90% opacity */
+  color: #fff; /* Dark text color */
+  padding: 15px !important; /* Some padding */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  border-radius: 15px; /* Rounded corners for "feathered" edges */
+}
+
+
+.fancybox-image,
+.fancybox-content {
+  margin-bottom: 25px !important; 
+}
