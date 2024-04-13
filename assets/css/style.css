@@ -1211,6 +1211,7 @@ main {
 */
 
 /* Override the default FancyBox layout */
+
 .fancybox-slide--image {
   display: flex !important;
 }
@@ -1232,17 +1233,13 @@ main {
   overflow-y: auto !important;
   max-height: 100vh;
   width: 18%;
-  left: 30px !important;
-  bottom: 10% !important;
-  background: rgba(0, 0, 0, 0.8) !important; /* Semi-transparent black background */
-  backdrop-filter: blur(60px) !important; /* Blur effect */
-
-
+  left: 40px !important;
+  bottom: 25px !important;
+  background: linear-gradient(rgba(37, 37, 37, 0.9), rgba(26, 26, 26, 0.9)) !important; /* Onyx black gradient with 90% opacity */
   color: #fff; /* Dark text color */
   padding: 15px !important; /* Some padding */
   box-sizing: border-box; /* Include padding and border in element's total width and height */
   border-radius: 15px; /* Rounded corners for "feathered" edges */
-
 }
 
 .fancybox-image,
