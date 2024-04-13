@@ -1210,7 +1210,71 @@ main {
 .fancybox-caption::-webkit-scrollbar-button { height: 60px; }
 */
 
+/* Override the default FancyBox layout */
+.fancybox-slide--image {
+  display: flex !important;
+}
 
+/* Position the image and caption side by side */
+.fancybox-image-wrap,
+.fancybox-caption {
+  flex: 1;
+  max-width: 50%;
+}
+
+/* Position the caption to the right of the image */
+.fancybox-caption {
+  order: 2;
+}
+
+
+.fancybox-caption {
+  overflow-y: auto !important;
+  max-height: 100vh;
+  width: 18%;
+  left: 30px !important;
+  bottom: 10% !important;
+  background: rgba(0, 0, 0, 0.8) !important; /* Semi-transparent black background */
+  backdrop-filter: blur(60px) !important; /* Blur effect */
+
+
+  color: #fff; /* Dark text color */
+  padding: 15px !important; /* Some padding */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  border-radius: 15px; /* Rounded corners for "feathered" edges */
+
+}
+
+.fancybox-image,
+.fancybox-content {
+  margin-bottom: 25px !important; /* Adjust as needed */
+}
+
+/* Style the scrollbar for all elements */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #888; /* Dark gray color */
+  border-radius: 4px;
+  transition: background 0.3s ease-in-out; /* Smooth color transition */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Lighten color on hover */
+}
+
+/* Remove scrollbar button (top and bottom) */
+*::-webkit-scrollbar-button {
+  display: none;
+}
+
+/* Style the scrollbar track */
+*::-webkit-scrollbar-track {
+  background: #000; /* Black color */
+  border-radius: 4px;
+}
 
 
 
