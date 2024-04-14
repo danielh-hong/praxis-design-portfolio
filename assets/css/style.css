@@ -792,12 +792,7 @@ main {
   width: 100%;
 }
 
-.right_about_img {
-  float: right;
-  margin-left: 10px;
-  width: 300px; /* Adjust as needed */
-  height: 300px; /* Adjust as needed */
-}
+
 
 
 .about .article-title { margin-bottom: 15px; }

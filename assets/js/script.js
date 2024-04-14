@@ -139,7 +139,7 @@ for (let i = 0; i < formInputs.length; i++) {
 }
 
 
-
+// PAGE NAVIGATION STUFF WITH NAVBAR ! ! ! ! ! ! ! ! ! !!
 document.addEventListener("DOMContentLoaded", function() {
   // page navigation variables
   const navigationLinks = document.querySelectorAll("[data-nav-link]");
@@ -147,15 +147,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // function to update active page and nav link
   function updateActive(targetId) {
+    // Remove the "active" class from all pages and navigation links
     for (let i = 0; i < pages.length; i++) {
-      if (targetId === pages[i].id) {
-        pages[i].classList.add("active");
-        navigationLinks[i].classList.add("active");
-      } else {
-        pages[i].classList.remove("active");
-        navigationLinks[i].classList.remove("active");
-      }
+      pages[i].classList.remove("active");
+      navigationLinks[i].classList.remove("active");
     }
+  
+    // Add the "active" class to the correct page and navigation link
+    const page = document.getElementById(targetId);
+    const navLink = document.querySelector(`[href="#${targetId}"]`);
+    if (page) page.classList.add("active");
+    if (navLink) navLink.classList.add("active");
   }
 
   // add event to all nav link
