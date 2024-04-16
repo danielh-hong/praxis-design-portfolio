@@ -1308,6 +1308,7 @@ main {
 
 .select-item button:hover { --eerie-black-2: hsl(240, 2%, 20%); }
 
+
 .project-list {
   display: grid;
   grid-template-columns: 1fr;
@@ -1387,6 +1388,13 @@ main {
 
 .project-title,
 .project-category { margin-left: 10px; }
+
+/* added */
+.project-date {
+  margin-left: 10px;
+  color: #666;
+  font-size: 0.8em;
+}
 
 .project-title {
   color: var(--white-2);
