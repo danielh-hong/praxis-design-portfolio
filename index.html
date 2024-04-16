@@ -298,6 +298,13 @@
                 Designs that are both detailed, yet functional, with consistent performance.</li>
               <li>Detail-Oriented Design: focusing on every minor aspect of designs in 
                 order to achieve high standards.</li>
+              <li>Overally Critical: being realistic to the point that only very realistic solutions are considered, and 
+                more creative, less feasible designs are simply disregarded.
+              </li>
+              <li>
+                Stable, Solid Solutions: prioritizing solutions that were realistic to complete in a 
+                complete manner in the project time frame, without daring to dream large.
+              </li>
           </ul>
           <p></p>
   
@@ -348,6 +355,12 @@
               <li>Embracing the Art of the Possible: Focusing on what could be, 
                 rather than what already is—pushing the limits of current technologies 
                 and methodologies to explore new possibilities.</li>
+              <li>Dreaming Big: Pursuing ambitious ideas. Believing that by reaching high,
+                even if the final product doesn't work on all fronts, the journey and 
+                the idea itself is what matters.</li>
+              <li>Being open to all possibilities; you never can fully know whether something 
+                will work or not until you try it.
+              </li>
           </ul>
           <p></p>
           <p>
@@ -430,6 +443,20 @@
               parts of any design endeavour. I value teamwork deeply, and always make sure 
               to communicate with team members to ensure that everyone is content 
               with their undertakings and feels fully supported.
+          </p>
+
+     
+          <hr class="dotted-line">
+          <p></p>
+
+          <p>
+              <strong>👁️ Visualization 👁️</strong>
+              <p></p>
+              As a learner, my strength comes in the form of visualization.
+              I prefer to see images and graphs of things, rather than hearing spoken or written instruction.
+              As such, in all my design activities, I seek to more easily visualize designs by
+              creating sketches, diagrams, and 3D models. It is only through these models that I feels
+              I can truly understand the design, its strengths and weakness, and its implications.  
           </p>
           
         </section>
@@ -931,7 +958,25 @@
             <!-- GENAI GENESIS  -->
             <li class="project-item active" data-filter-item data-category="engineering">
               <a data-fancybox="gallery-genAI2024" data-caption="
-              GenAI Genesis" 
+              Pocket Fridge is a design project that I worked on with my team (Brian Zhang, Patrick Huang, Sally Jeong)
+              for my second hackathon ever, the Google GenAI Genesis Hackathon (2024).
+
+              Pocket Fridge is an app that scans your receipts, identifies the food items on that receipt, keeps track of the expiration dates,
+              places those foods into your 
+              'virtual fridge', and then suggests recipes based on the foods you have. 
+
+              
+              We came up with this idea when reflecting on our own lives as university students, realizing how 
+              busy life could be, how little time there was to think of 
+              nutritious recipes, and how easy it was to forget about what's already in your fridge.
+
+              <br><br>
+              This idea was the product of hours of brainstorming and outside-the-box thinking.
+              True to my Engineering position, Plcket Fridge
+              was indeed an unbelievable and ambitioius idea. None of us had any experience working with Gemini AI
+              , but we were 
+              determined to make it work. Ultimately, we managed to the app working, ending up winning the hackathon.
+" 
               href="./assets/images/project_thumbnails/gen_AI_2024/app/Pocket Fridge Figma.png">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -939,15 +984,66 @@
                   </div>
                   <img src="./assets/images/project_thumbnails/gen_AI_2024/app/Pocket Fridge Figma.png" alt="Pocket Pantry Figma Board" loading="lazy">
                 </figure>
-                <h3 class="project-title">Automatic Trash Dispenser</h3>
+                <h3 class="project-title">Pocket Fridge (AI Project)</h3>
                 <p class="project-category">Engineering</p>
               </a>
 
-              <a data-fancybox="gallery-genAI2024" data-caption="Presentation" href="./assets/images/project_thumbnails/gen_AI_2024/pictures/mog.jpg">
+              <a data-fancybox="gallery-genAI2024" data-caption="
+              <strong>🛠️ How we built it 🛠️:</strong>
+              We built Pocket Fridge primarily using the MERN stack, integrating MongoDB for data storage,
+              Express.js to handle API requests, React Native for a convenient front-end user interface, 
+              and Node.js (hosted/deployed on Railway) for server-side logic.
+
+              We explored countless other technologies throughout this project too, creating a Flask Rest API 
+              hosted on Google Cloud to leverage Vertex AI (Gemini Pro Vision, Gemini Pro, and Imagen) and 
+              rigorously analyze grocery receipts." 
+              href="./assets/images/project_thumbnails/gen_AI_2024/GenAI_technologies.png">
               </a>
-              <a data-fancybox="gallery-genAI2024" data-caption="Internal components" href="./assets/images/project_thumbnails/gen_AI_2024/pictures/Win.jpg">
+              <a data-fancybox="gallery-genAI2024" data-caption="
+              <strong>💻 How it works (Technical Details) 💻:</strong> Upon the upload of a receipt photo to the app,
+                our AI Gemini model — trained using Vertex AI, implemented with Python, and deployed on 
+                Google Cloud as an API with Flask — begins its work. Our Gemini AI model analyzes the 
+                receipt photo to identify food items and predicts their expiration dates using its cloud 
+                capabilities. The data, formatted in JSON, is then sent to the frontend React Native code which 
+                reads it in and organizes the different items into the virtual pantry, while keeping track 
+                of their predicted expiration dates. Our second AI Gemini model, also harnessed with Vertex AI, 
+                takes these identified items and concocts various recipes. This AI creates step-by-step images 
+                for each recipe, enhancing user convenience. 🍳" 
+              href="./assets/images/project_thumbnails/gen_AI_2024/pictures/demo.JPG">
               </a>
-              <a data-fancybox="gallery-genAI2024" data-caption="Project Demo by Shervin (Team Member)" href="./assets/images/project_thumbnails/gen_AI_2024/pictures/demo.JPG">
+
+              <a data-fancybox="gallery-genAI2024" data-caption="
+              <strong>💻 Technical Details Continued 💻:</strong> The AI models are the main 
+              branches that I worked on in this project. Coming into the competition, I had very little 
+              experience working with AI API's, especially not the newly released Gemini and Google models. 
+              This project was therefore quite a challenge. However, 
+              harnessing my creativity, discipline, and problem solving skills, I was able to learn how to use
+              Vertex AI, Google Cloud API Deployment, and countless other technologies within the 48 hours to integrate
+              our AI models into our project. Overall, this demonstrates my key values of discipline as well
+              as my important value of 'thinking big'; doing things that I have never done before, and pushing the limits of
+              what I think is possible."
+              href="./assets/images/project_thumbnails/gen_AI_2024/pictures/demo.JPG">
+              </a>
+
+              <a data-fancybox="gallery-genAI2024" data-caption="
+              <strong>🎤 Presentation 🎤:</strong> This picture features our team's final presentation at the Google GenAI
+              Genesis Hackathon (2024) in front of Industry Leaders in AI. Although 
+              we were exhausted at the end of the 48 sleepless hours, we ensured to prepare a professional presentation,
+              creating thoughtful slides, app mockups, as well as prepping well-rehearsed demos. 
+              As mentioned in my engineering position,
+              I truly believe that an idea is only as good as its presentation; even if an idea is revolutionary, 
+              if it is not 
+              communicated effectively, it can not be appreciated. This is a key value that I held throughout the project,
+              and was a key reason why we were able to win the hackathon. " 
+              href="./assets/images/project_thumbnails/gen_AI_2024/pictures/mog.jpg">
+              </a>
+
+
+              <a data-fancybox="gallery-genAI2024" data-caption="
+              At the end of the hackathon, our group won the Best AI in Climate Change and Sustainability Award. This was my first 
+              hackathon win, and will forever be a project that I am very proud of--not because we won, but because
+              we aimed for a ambitious goal, and were able to stick the puzzle pieces together to create a working, final
+              product." href="./assets/images/project_thumbnails/gen_AI_2024/pictures/Win.jpg">
               </a>
             </li>
 
@@ -956,13 +1052,9 @@
 
             <li class="project-item active" data-filter-item data-category="engineering">
               <a data-fancybox="gallery-makeuoft" data-caption="
-              EcoSort: SmartWaste Assistant is a small-scale, automatic, voice-controlled waste dispenser I made for the MakeUoft hackathon (2024).
-              Upon an infrared sensor detecting motion, a  Python script on a Raspberry Pi prompts the user to identify their
-              item vocally. The rasperry pi takes the input and uses Google Speech's API to convert the audio to text.
-              A self-trained machine learning algorithm, which uses a Naïve Bayes classifier, then takes the text, identifies the item,
-              and categorizes it as garbage, compost, or recycling. Based on the algorithms output, the appropriate 
-              signal is sent to the arduino which activates the correct servo motor to open the correct bin."
-              href="./assets/images/project_thumbnails/makeuoft2024/makeuoft_3.jpg">
+              EcoSort: SmartWaste Assistant is a small-scale, automatic, voice-controlled waste dispenser I made for
+              my the MakeUoft hackathon (2024), my first hackathon ever."
+              href="./assets/images/project_thumbnails/makeuoft2024/makeuoft_thumbnail.jpg">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
@@ -973,14 +1065,50 @@
                 <p class="project-category">Engineering</p>
               </a>
 
-              <a data-fancybox="gallery-makeuoft" data-caption="Hardware components" href="./assets/images/project_thumbnails/makeuoft2024/makeuoft_thumbnail.jpg">
+              <a data-fancybox="gallery-makeuoft" data-caption="
+              <strong>💻 How it works (Technical Details) 💻:</strong> Upon an infrared sensor detecting motion, a  Python script on a Raspberry Pi prompts the user to identify their
+              item vocally. The rasperry pi takes the input and uses Google Speech's API to convert the audio to text.
+              A self-trained machine learning algorithm, which uses a Naïve Bayes classifier, then takes the text, identifies the item,
+              and categorizes it as garbage, compost, or recycling. Based on the algorithms output, the appropriate 
+              signal is sent to the arduino which activates the correct servo motor to open the correct bin."
+              href="./assets/images/project_thumbnails/makeuoft2024/makeuoft_3.jpg">
               </a>
-              <a data-fancybox="gallery-makeuoft" data-caption="Internal components" href="./assets/images/project_thumbnails/makeuoft2024/makeuoft_2.jpg">
+              <a data-fancybox="gallery-makeuoft" data-caption="
+              <strong>📚 Background 📚:</strong> The MakeUofT Hackathon was one of my first projects where I decided to shoot for the sky.
+              At the time, My team of myself and three other first year EngSci's had very little experience with 
+              multidiciplinary engineering,
+              electrical components, or any engineering at all, yet we decided to be ambitious and create 
+              something that on paper, was out of our scope.
+              Utilizing the full 48 hours, we managed to create a working prototype. It wasn't perfect; 
+              we never managed to perfectly integrate the rasperry pi OS system and the arduino system to make the 
+              project fully autonomous (i.e. work without being plugged into the rasperry pi), and our machine 
+              learning model was not as accurate as we had hoped. Yet, we had made a working product, which was a 
+              huge accomplishment for us."
+
+              href="./assets/images/project_thumbnails/makeuoft2024/makeuoft_2.jpg">
+              </a>
+              <a data-fancybox="gallery-makeuoft" data-caption="Project Demo by Shervin (Team Member)" href="https://www.youtube.com/watch?v=YkVNaKjuS3E">
+              </a>
+
+              <a data-fancybox="gallery-makeuoft" data-caption="
+              <strong>📚 Background 📚:</strong> The MakeUofT Hackathon was one of my first projects where I decided to shoot for the sky.
+              At the time, My team of myself and three other first year EngSci's had very little experience with 
+              multidiciplinary engineering,
+              electrical components, or any engineering at all, yet we decided to be ambitious and create 
+              something that on paper, was out of our scope.
+              Utilizing the full 48 hours, we managed to create a working prototype. It wasn't perfect; 
+              we never managed to perfectly integrate the rasperry pi OS system and the arduino system to make the 
+              project fully autonomous (i.e. work without being plugged into the rasperry pi), and our machine 
+              learning model was not as accurate as we had hoped. Yet, we had made a working product, which was a 
+              huge accomplishment for us."
+
+              href="./assets/images/project_thumbnails/makeuoft2024/makeuoft_2.jpg">
               </a>
               <a data-fancybox="gallery-makeuoft" data-caption="Project Demo by Shervin (Team Member)" href="https://www.youtube.com/watch?v=YkVNaKjuS3E">
               </a>
 
             </li>
+            
             
             <!-- Nacelle -->
             <li class="project-item active" data-filter-item data-category="engineering">
@@ -1029,6 +1157,36 @@
               </a>
             </li>
 
+            <!-- Aesthetic Stopwatch -->
+            <li class="project-item active" data-filter-item data-category="engineering">
+              <a data-fancybox="aesthetic_stopwatch_2024" data-caption="
+              EcoSort: SmartWaste Assistant is a small-scale, automatic, voice-controlled waste dispenser I made for the MakeUoft hackathon (2024).
+              Upon an infrared sensor detecting motion, a  Python script on a Raspberry Pi prompts the user to identify their
+              item vocally. The rasperry pi takes the input and uses Google Speech's API to convert the audio to text.
+              A self-trained machine learning algorithm, which uses a Naïve Bayes classifier, then takes the text, identifies the item,
+              and categorizes it as garbage, compost, or recycling. Based on the algorithms output, the appropriate 
+              signal is sent to the arduino which activates the correct servo motor to open the correct bin."
+              href="./assets/images/project_thumbnails/stopwatch/stopwatch_thumbnail.png">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project_thumbnails/stopwatch/stopwatch_thumbnail.png" alt="EcoSort" loading="lazy">
+                </figure>
+                <h3 class="project-title">Customizable, Aesthetic Stopwatch</h3>
+                <p class="project-category">Web Dev & Design</p>
+                <p class="project-category">Engineering</p>
+              </a>
+
+              <a data-fancybox="aesthetic_stopwatch_2024" data-caption="Hardware components" href="./assets/images/project_thumbnails/stopwatch/stopwatch_laptop.png">
+              </a>
+              <a data-fancybox="aesthetic_stopwatch_2024" data-caption="Internal components" href="./assets/images/project_thumbnails/makeuoft2024/makeuoft_2.jpg">
+              </a>
+              <a data-fancybox="aesthetic_stopwatch_2024" data-caption="Project Demo by Shervin (Team Member)" href="https://www.youtube.com/watch?v=YkVNaKjuS3E">
+              </a>
+
+            </li>
+
             <!-- CIV BRIDGE  -->
             <li class="project-item active" data-filter-item data-category="engineering">
               <a data-fancybox="gallery-civ-bridge-2024" data-caption="
@@ -1048,30 +1206,52 @@
               </a>
               <a data-fancybox="gallery-civ-bridge-2024" data-caption="Our nacelle design on solidworks." href="./assets/images/project_thumbnails/civ_bridge/I made the thing.png">
               </a>
-              <a data-fancybox="gallery-civ-bridge-2024" data-caption="One of the earlier stages of the solidworks nacelle design." href="./assets/images/project_thumbnails/utwind_nacelle/me_pointing_nacelle.jpg">
+              <a data-fancybox="gallery-civ-bridge-2024" data-caption="One of the earlier stages of the solidworks nacelle design." href="./assets/images/project_thumbnails/civ_bridge/Desmos Bridge.png">
               </a>
 
 
             <!-- Praxis I  -->
             <li class="project-item active" data-filter-item data-category="engineering">
               <a data-fancybox="gallery_praxisI_2024" data-caption="
-              CIV BRIDGE" 
-              href="./assets/images/project_thumbnails/civ_bridge/Holding Bridge 4x3.png">
+              Praxis I was my formal introduction to Engineering design and teamwork. In Praxis I, my group and I 
+              tackled the challenge of designing a better solution to storing helmets on bicycles. We chose to do this 
+              because our group (Mark Pirner, Aref Alkouatli, Andrew David Muntean) consisted of four avid bike commuters, 
+              and we had all experienced the inconvenience of
+              carrying around a helmet all day along, or the inconvenience of leaving it attached to our locked bike, 
+              where it could be stolen easily. The picture 
+              attached is a picture of our group's Alpha Release presentation table, where we presented our framed 
+              opportunity, the initial solutions we diverged, as well as some precursory converging, where we compared
+              our initial solutions against each other and the requirements to see which ones were the most
+              feasible." 
+              href="./assets/images/project_thumbnails/praxis1/praxis_alpha_table.jpg">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project_thumbnails/civ_bridge/holding_bridge_new.png" alt="nacelle_photo" loading="lazy">
+                  </div> <!-- Thumbnail -->
+                  <img src="./assets/images/project_thumbnails/praxis1/praxis1_thumbnail.png" alt="Praxis I Alpha Release" loading="lazy">
                 </figure>
-                <h3 class="project-title">Civ Bridge</h3>
+                <h3 class="project-title">Praxis I</h3>
                 <p class="project-category">Engineering</p>
               </a>
 
-              <a data-fancybox="gallery_praxisI_2024" data-caption="The nacelle design I drew up with my team of four." href="./assets/images/project_thumbnails/civ_bridge/Us Grouped Together.jpg">
+              <a data-fancybox="gallery_praxisI_2024" data-caption="\
+              Featured in the picture above are some of the initial solutions that we came up with and prototyped using 
+              sketches and CAD. The initial solutions were all very different, ranging from a box on top of a 
+              bike lock, to a waterproof bag solution that could be attached to the helmet and bike rack. " 
+              href="./assets/images/project_thumbnails/praxis1/Initial Solutions.png">
               </a>
-              <a data-fancybox="gallery_praxisI_2024" data-caption="Our nacelle design on solidworks." href="./assets/images/project_thumbnails/civ_bridge/I made the thing.png">
+
+              <a data-fancybox="gallery_praxisI_2024" data-caption="
+              The final solution our group settled on was the 'Locker Solution'. The locker solution was a box attachment
+              to the top of top of the bike ring bike locks that are already present in mass in Toronto. Inside the box were many
+              small metal rings that could be used to lock the helmet to the bike. Our design was made to be 
+              user friendly, secure, and safe against weather"
+              href="./assets/images/project_thumbnails/praxis1/Locker Solution Praxis I.png">
               </a>
-              <a data-fancybox="gallery_praxisI_2024" data-caption="One of the earlier stages of the solidworks nacelle design." href="./assets/images/project_thumbnails/utwind_nacelle/me_pointing_nacelle.jpg">
+
+              <a data-fancybox="gallery_praxisI_2024" data-type="iframe" data-src="./assets/images/project_thumbnails/praxis1/Praxis I Design Brief.pdf"
+              data-caption="This attached PDF is our Design Brief, which details our design opportunity, stakeholders,
+              and requirements." href="./assets/images/project_thumbnails/civ_bridge/Us Grouped Together.jpg">
               </a>
 
 

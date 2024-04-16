@@ -1222,36 +1222,6 @@ main {
 .fancybox-caption::-webkit-scrollbar-button { height: 60px; }
 */
 
-/* Override the default FancyBox layout */
-
-.fancybox-caption {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0;
-  bottom: 13px;
-  text-align: right;
-}
-
-.fancybox-caption:before {
-  background: 0 0;
-}
-
-.fancybox-caption:after {
-  border-bottom: 0;
-}
-
-.fancybox-caption.none {
-  display: none;
-}
-
-.fancybox-caption>span {
-  background-color: #343434;
-  color: #B6B6B6;
-  display: inline-block;
-  padding: 5px 15px;
-}
-
 /* Style the scrollbar for all elements */
 *::-webkit-scrollbar {
   width: 8px;

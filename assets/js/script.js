@@ -139,6 +139,8 @@ for (let i = 0; i < formInputs.length; i++) {
 }
 
 
+
+
 // PAGE NAVIGATION STUFF WITH NAVBAR ! ! ! ! ! ! ! ! ! !!
 document.addEventListener("DOMContentLoaded", function() {
   // page navigation variables
@@ -243,7 +245,6 @@ document.addEventListener('mousemove', function(e) {
 });
 
 
-
 // Click effect for each click (mouse click effect)
 var colors = ['dodgerblue', 'deepskyblue', 'cyan', 'magenta', 'yellow', 'lime'];
 var shapes = ['diamond', 'circle']; // Add your shapes here
@@ -333,3 +334,4 @@ const observer = new MutationObserver(function(mutations) {
 
 // Start observing the home element for attribute changes
 observer.observe(home, { attributes: true });
+
