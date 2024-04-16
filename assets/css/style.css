@@ -1184,7 +1184,7 @@ main {
   #PORTFOLIO
 \*-----------------------------------*/
 
-/*
+
 .fancybox-navigation .fancybox-button {
   width: 60px;
   height: 60px;
@@ -1220,7 +1220,7 @@ main {
 .fancybox-caption::-webkit-scrollbar-thumb:hover { background: hsla(0, 0%, 100%, 0.15); }
 
 .fancybox-caption::-webkit-scrollbar-button { height: 60px; }
-*/
+
 
 /* Style the scrollbar for all elements */
 *::-webkit-scrollbar {
